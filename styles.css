@@ -1,16 +1,13 @@
 
-/* Your CSS Code here. */
-/* Holder Class */
+
 .holder {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;             /* Allow wrapping to next row */
+  justify-content: space-between; /* Space between items; edges touch container */
 }
 
-
-/* Item Class */
 .item {
-  flex: 0 1 auto;
-  margin: 10px;
+  flex: 0 0 auto;               /* Prevent shrinking and growing */
+  margin: 10px 0;               /* Optional vertical spacing between rows */
 }
+
